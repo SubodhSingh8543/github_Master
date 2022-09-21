@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mensPage</title>
+    <style>
+        #menscloth{
+         /* display: flex; */
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         grid-template-rows: auto;
+         width:80%;
+         justify-content:space-between;
+         gap:10px;
+         border:0px solid red;
+         margin:auto;
+         margin-top:50px;
+        }div>img{
+            width:45%;
+            padding-left:18%;
+        }
+      
+        h2{
+            color: grey;
+            font-size: 40px;
+        }
+      
+        .text{
+            display: flex;
+            font-size: 45px;
+            margin-top:-70px;
+            
+         }
+        .text>p:nth-child(1){
+            font-size: 50px;
+         margin-right: 20px; 
+        }
+        .text>p:nth-child(2){
+           color: grey;
+         margin-right: 20px; 
+         font-size:40px;
+         padding-top:18px;
+        
+        }
+        .text>p:nth-child(3){
+            color: rgb(20, 199, 20);
+            font-size:40px;
+         padding-top:18px;
+        }#rupee{
+            font-size:36px;
+            
+        }h2{
+            margin-top:-10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menscloth">
+
+       <div>
+        <img src="https://m.media-amazon.com/images/I/41hpSJIIToL.jpg" alt="">
+        <h1>Pause</h1>
+        <h2>Men cotton Long sleeves Shrug</h2>
+        <div class="text">
+        <p><span>&#8377;</span> 359</p>
+        <p><s><span id="rupee">&#8377;</span>1,499</s></p>
+        <p>-47%</p>
+      </div>
+       </div>
+
+
+       <div>
+        <img src="https://m.media-amazon.com/images/I/41hpSJIIToL.jpg" alt="">
+        <h1>JUBINATION</h1>
+        <h2>Men Wool Sleevless Sweater Pack of 1</h2>
+        <div class="text">
+          <p><span>&#8377;</span> 799</p>
+          <p ><s><span id="rupee">&#8377;</span>1,499</s></p>
+          <p>-76%</p>
+      </div>
+       </div>
+
+    </div>
+</body>
+</html>
